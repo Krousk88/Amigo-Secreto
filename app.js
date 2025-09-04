@@ -57,3 +57,10 @@ function sortearAmigo() {
         ul.appendChild(li);
     }
 }
+
+function limpiarLista() {
+    listaAmigos = [];
+    mostrarLista();
+    document.getElementById('resultado').innerHTML = '';
+    limpiarCampo();
+}
